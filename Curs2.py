@@ -1,3 +1,5 @@
+
+
 # x = 10
 # while x>1:
 #     #print ("x este:",x)
@@ -86,7 +88,10 @@ print(var1)
 print(var2)
 
 for k,val in d.items():
-    #print(k,val)
-
-for k,val in dict.iteritems():
     print(k,val)
+
+#doesn't work in py3
+# for k,val in d.iteritems():
+#     print(k,val)
+
+#    git push --set-upstream origin curs2
