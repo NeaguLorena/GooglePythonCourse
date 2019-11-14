@@ -86,7 +86,7 @@ print(var1)
 print(var2)
 
 for k,val in d.items():
-    #print(k,val)
-
-for k,val in dict.iteritems():
     print(k,val)
+
+#for k,val in dict.iteritems():
+    #print(k,val) not for py3
